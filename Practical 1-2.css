@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Top{
+    height: 30px;
+    background-color: rgb(5, 5, 95);
+}
+
+.Header{
+    width: 100%;
+    height: 150px;
+    background-color: beige;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.HFirst{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.HSecond{
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding-top: 10px;   
+}
+
+.Image{
+    height: 100px;
+    width: 100%;
+}
+
+.HSecond,.div1{
+    float: left;
+    padding-left: 30px;
+}
+
+.Header,.div2{
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.Header,.div3{
+    float: left;
+    padding-left: 10px;
+}
+
+.HThird{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#LeftHead1, #RightHead1{
+    color: rgb(236, 114, 14);
+}
+
+#LeftHead2, #RightHead2{
+    color: black;
+}
+
+#LeftHead3, #RightHead3 {
+    color: grey;
+}
+
+.Menu{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: orangered;
+}
+
+
+li{
+    display:inline-block;
+    color: white;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: large;
+}
+
+li:hover{
+    background-color: rgb(194, 55, 5);
+}
+
+.CollegeImg, img{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.Departments{
+    background-color: rgb(151, 8, 8);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Departments, h1, h5{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.BMain{
+    height: auto;
+    width: 100%;
+   
+}
+
+
+.DepBox{
+    width: 100%;
+    height: 200px;
+}
+
+.Box{
+    height: 290px;
+    width: 20%;
+    float: left;
+    padding: 10.5px;
+    margin: 15px 23px;
+    border: 4px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: white;
+    background-color: beige;
+    font-size: large;
+}
+.Box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Box, h3{
+    color: rgb(144, 28, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Box, p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}

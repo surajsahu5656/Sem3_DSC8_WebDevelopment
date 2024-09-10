@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="Practical 5.css">
+</head>
+<body>
+    <div class="Main">
+
+        <h2>Admission Form</h2>
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Login Details</legend>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="password">Confirm Password:</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                <label for="number">Number:</label>
+                <input type="text" id="number" name="number" required>
+                <label for="fathername">Father's Name:</label>
+                <input type="text" id="fathername" name="fathername" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Course Details</legend>
+                <label for="course">Select Course:</label>
+                <select id="course" name="course">
+                    <option value="bvocsd">B.Voc. (Software Development)</option>
+                    <option value="bsc">B.Voc. (Banking)</option>
+                    <option value="bsccomputerscience">B.Sc. (Computer Science)</option>
+                    <option value="bsc">B.Sc</option>
+                </select><br><br>
+                <label>Interests:</label>
+                <input type="checkbox" id="sports" name="interests" value="sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interests" value="music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="arts" name="interests" value="arts">
+                <label for="arts">Arts</label>
+                <input type="checkbox" id="photography" name="interests" value="photography">
+                <label for="sports">Photography</label>
+                <input type="checkbox" id="dance" name="interests" value="dance">
+                <label for="sports">Dance</label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Additional Details</legend>
+                <label for="intro">Brief Introduction:</label><br>
+                <textarea name="intro" id="introl" rows="10" cols="96%" placeholder="Brief introduction in 200-300 words."></textarea>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Document</legend>
+              <label for="identityproof">Identity Proof:</label>
+              <select name="identityproof" id="identityproof">
+                <option value="aadharcard">Aadhar Card</option>
+                <option value="pancard">PAN Card</option>
+                <option value="voterid">Voter ID Card</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="choosefile">Choose File: </label><input type="file">
+            </fieldset>
+
+
+            <div style="text-align: center;">
+              <input type="reset" value="Reset">
+              <input type="submit" value="Submit">
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        #table{
+            margin-left: 16%;
+        }
+
+        .heading1 {
+            text-align: center;
+        }
+
+        #h1 {
+            color: red;
+        }
+        
+        td{
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            
+        }
+
+        th{
+            height: 20px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .AEC{
+            background-color: rgba(0,176,79,255);
+        }
+
+        .GE{
+            background-color: rgba(228,185,182,255);
+        }
+
+        .VAC{
+            background-color: rgba(254,191,1,255);
+        }
+
+        .SEC{
+            background-color: rgba(0,176,240,255);
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <h1 class="heading1" id="h1">B.Voc Software Development (Semester III)</h1>
+    <h2 class="heading1" id="h2">Time Table</h2>
+    
+    <table id="table" border="1"  cellspacing="0">
+        <tr>
+            <th>Periods</th>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th>IV</th>
+            <th> </th>
+            <th>V</th>
+            <th>VI</th>
+            <th>VII</th>
+            <th>VIII</th>
+        </tr>
+
+        
+        <tr>
+            <th>Time</th>
+            <th>8:45-9:45</th>
+            <th>9:45-10:45</th>
+            <th>10:45-11:45</th>
+            <th>11:45-12:45</th>
+            <th>12:45-1:15 </th>
+            <th>1:15-2:15</th>
+            <th>2:15-3:15</th>
+            <th>3:15-4:45</th>
+            <th>4:15-5:15</th>
+        </tr>
+
+
+        <tr>
+            <th>MON</th>
+            <td class="AEC" >AEC </td>
+            <td>X</td>
+            <td colspan="2" class="GE">GE/DSE</td>
+            <td rowspan="5">LUNCH <br>BREAK</td>
+            <td>DSA <br> (Dr. Rahul Solanki) <br> P34</td>
+            <td>DSA <br> (Dr. Rahul Solanki) <br> P34</td>
+            <td colspan="2" class="SEC">SEC</td>
+            
+            
+        </tr>
+
+
+        <tr >
+            <th>TUE</th>
+            <td>DSA <br> (Dr. Rahul Solanki) <br> Lab G03</td>
+            <td>Operating Systems <br> (Mrs. Ashima Jain) <br> Lab G03</td>
+            <td colspan="2">Web Design and Development <br> (Mrs. Ashima Jain) <br> P33</td>
+            <td>Operating Systems <br> (Mrs. Ashima Jain) <br> P32</td>
+            <td>X</td>
+            <td colspan="2" class="AEC">AEC</td>
+            
+        </tr>
+
+
+        <tr >
+            <th>WED</th>
+            <td >AEC</td>
+            <td class="AEC">AEC</td>
+            <td>Web Design and Development<br>(Mrs. Ashima Jain) <br>P33</td>
+            <td>Operating Systems <br>(Mrs. Ashima Jain) <br>P33</td>
+            <td colspan="2" class="GE">GE/DSE</td>
+            <td colspan="2" class="VAC">VAC</td>
+            
+            
+        </tr>
+
+
+        <tr >
+            <th>THR</th>
+            <td >DSA <br>(Dr. Rahul Solanki) <br>Lab G03</td>
+            <td>X</td>
+            <td>DSA <br>(Dr. Rahul Solanki) <br> P32</td>
+            <td>Operating Systems <br>(Mrs. Ashima Jain) <br>P32</td>
+            <td class="GE">GE/DSE</td>
+            <td colspan="2" class="SEC">SEC</td>
+            <td class="AEC">AEC</td>
+            
+        </tr>
+
+
+        <tr >
+            <th>FRI</th>
+            <td >X</td>
+            <td>X</td>
+            <td colspan="2">Web Design and Development<br>(Mrs. Ashima Jain) <br>Lab G03</td>
+            <td colspan="2" class="VAC">VAC</td>
+            <td colspan="2" class="SEC">SEC</td>
+            
+        </tr>
+
+    </table>
+</body>
+</html>
