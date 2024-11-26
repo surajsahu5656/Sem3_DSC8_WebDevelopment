@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+
+        function changeCase(str) {
+            let changedStr = '';
+            for (let i = 0; i < str.length; i++) {
+                let char = str[i];
+                if (char === char.toUpperCase()) {
+                    changedStr += char.toLowerCase();
+                } else {
+                    changedStr += char.toUpperCase();
+                }
+            }
+            return changedStr;
+        }
+
+
+        let stringToChangeCase = prompt("Enter the string to change case");
+        document.write("Original String : ", stringToChangeCase);
+        document.write("After changing the case : ", changeCase(stringToChangeCase))
+
+    </script>
+
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

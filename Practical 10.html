@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="form-title">Full Name Splitter</h1>
+
+        <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="name" placeholder="Enter your Full Name" required oninput="nameSplitter()">
+        </div>
+    </br>
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="name" placeholder="Auto Fill" readonly>
+        </div>
+    </br>
+        <div class="form-group">
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName" name="name" placeholder="Auto Fill" readonly>
+        </div>
+
+    </br>
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="name" placeholder="Auto Fill" readonly>
+        </div>
+    </div>
+
+</body>
+
+<script >
+    function nameSplitter(){
+    var fullName = document.getElementById('fullName').value.trim();
+    var nameParts = fullName.split(/\s+/); 
+    console.log(nameParts);
+   
+    var firstName = nameParts[0] || "NA";
+    var middleName = nameParts.length > 2 ? nameParts[nameParts.length -2] : "NA"
+    var lastName = nameParts.length > 1 ? nameParts[nameParts.length - 1] : "NA";
+
+
+
+  document.getElementById('firstName').value =   firstName;
+  document.getElementById('middleName').value =   middleName;
+  document.getElementById('lastName').value =   lastName;
+}
+</script>
+</html>
